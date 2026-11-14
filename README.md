@@ -80,7 +80,7 @@ src/
 Requires Node.js 18 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/circuitwise.git
+git clone https://github.com/Shahnaz718/circuitwise.git
 cd circuitwise
 npm install
 npx expo start
