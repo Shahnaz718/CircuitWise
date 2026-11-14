@@ -5,14 +5,14 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Ionicons } from '@expo/vector-icons';
 import { useApp } from '../context/AppContext';
 
-import HomeScreen from '../screens/HomeScreen';
-import ProblemListScreen from '../screens/ProblemListScreen';
-import ProblemDetailScreen from '../screens/ProblemDetailScreen';
-import StepsScreen from '../screens/StepsScreen';
-import SafetyScreen from '../screens/SafetyScreen';
-import SavedScreen from '../screens/SavedScreen';
-import ToolsScreen from '../screens/ToolsScreen';
-import AboutScreen from '../screens/AboutScreen';
+import HomeScreen from '../screen/HomeScreen';
+import ProblemListScreen from '../screen/ProblemListScreen';
+import ProblemDetailScreen from '../screen/ProblemDetailScreen';
+import StepsScreen from '../screen/StepsScreen';
+import SafetyScreen from '../screen/SafetyScreen';
+import SavedScreen from '../screen/SavedScreen';
+import ToolsScreen from '../screen/ToolsScreen';
+import AboutScreen from '../screen/AboutScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
