@@ -61,17 +61,17 @@ To change the dataset, edit the files in `src/data/` and increase `DATA_VERSION`
 ## Project structure
 
 ```
-App.js                      app entry point
+App.tsx                      app entry point
 index.js                    registers the app
 metro.config.js             allows SQLite to run in the web preview
 src/
-  theme.js                  colours, categories, helpers
-  context/AppContext.js     database ready state and dark mode
-  data/problems.js          the 30 guides
-  data/reference.js         tools, glossary, safety tips, contacts
-  db/database.js            all SQLite code
-  components/ui.js          reusable UI components
-  navigation/AppNavigator.js
+  theme.ts                  colours, categories, helpers
+  context/AppContext.tsx     database ready state and dark mode
+  data/problems.ts          the 30 guides
+  data/reference.ts         tools, glossary, safety tips, contacts
+  db/database.ts            all SQLite code
+  components/ui.tsx        reusable UI components
+  navigation/AppNavigator.tsx
   screens/                  the 8 screens
 ```
 
